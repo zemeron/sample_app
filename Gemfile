@@ -5,6 +5,10 @@ gem 'rails', '3.1.1'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
+gem "rake", "0.8.7"
+gem 'activerecord-sqlserver-adapter'
+gem 'ruby-odbc'
+
 gem 'sqlite3'
 
 
@@ -23,5 +27,5 @@ group :development do
 end
 
 group :test do
-	gem 'rspec-rails'
+	gem 'rspec'
 end
